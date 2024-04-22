@@ -1,0 +1,51 @@
+ h2{
+        color: rgb(57, 120, 172);
+         background-color: rgb(165, 221, 75);
+         text-align: start;
+    }
+  
+    h3{
+     color: rgb(212, 156, 72);
+     background-color: aquamarine;
+     text-align: left;
+     text-decoration: red underline;
+     font-family: impact;
+    }
+
+    p{
+     color: red;
+     background-color: rgb(238, 213, 213);
+     text-align: justify;
+     font-weight: bold;
+     line-height: 1.5;
+     letter-spacing: 5px;
+     font-size: 25px;
+     font-family: sans-serif;
+     
+    }
+
+    button{
+     color: gold;
+     background-color: black;
+    }
+
+    /* h1{
+     text-align: center;
+     font-weight: 800;
+     text-decoration: wavy red underline;
+     letter-spacing: 15px;
+     font-family: copperplate;
+    } */
+
+    h1{
+     font-family: league spartan;
+     color: #ffa511;
+     text-align: center;
+     font-size: 55px;
+     font-weight: 900;
+     letter-spacing: 2px;
+     line-height: 1.5;
+     text-decoration:  teal double underline;
+     text-transform: uppercase;
+
+    }

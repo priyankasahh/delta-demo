@@ -1,0 +1,80 @@
+
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+
+    /* animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse; */
+
+    /* animation-name: colorAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    /* animation-name: widthAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    /* animation: widthAnimation 2s ease-in 0s infinite normal; */
+
+    animation: colAnimation 4s ease-in 0s infinite normal;
+}
+
+
+@keyframes colAnimation{
+    0% { 
+        
+        background-color: rgb(117, 117, 27);
+       
+    }
+    50% {
+       
+        background-color: rgb(165, 21, 21);
+       
+    }
+    80% {
+        background-color: purple;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
+/* @keyframes widthAnimation{
+    from { 
+        width:10px;
+        background-color: yellow;
+        font-size:20px;
+    }
+    to {
+        width:400px;
+        background-color: red;
+        font-size:40px;
+    }
+} */
+
+/* @keyframes fontAnimation{
+    from { 
+        font-size:20px;
+    }
+    to {
+        font-size:40px;
+    }
+} */
+/* @keyframes colorAnimation{
+    from { 
+        background-color: yellow;
+    }
+    to {
+        background-color: red;
+    }
+} */

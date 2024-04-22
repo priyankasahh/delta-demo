@@ -1,0 +1,112 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.search_box{
+    position: inherit;
+    display: flex;
+    padding: 25px 25px;
+}
+.container{
+    height:100vh;
+    width: 80%;
+    background-color: red;
+    background-image: url(img/thumb.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute;  */
+    /* display: inline-block;
+    flex-flow: wrap;
+    place-content: flex-start space-between;
+    align-items: center;. */
+  
+}
+.logo{
+    margin-left: 10px;
+    color: #EEEDED;
+    font-size: 28px;
+}
+.logo:hover{
+    color: #0D1282;
+    font-size: 32px;
+}
+h3::first-letter{
+    color: #D71313;
+}
+.box{
+    height: 110px;
+    width: 80%;
+    background-color: #EEEDED;  
+}
+
+/*navv*/
+.nav-search{
+    display: flex;
+    background-color: palevioletred;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    
+
+  
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-buttom-left-radius: 4px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #F5F5F5;
+    border-top-right-radius: 4px;
+    border-buttom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid #F5F5F5;
+}
+
+.small-boxx{
+    display: flex;
+    
+}
+.small-box{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #EEEDED;
+    margin: 2px 2px;
+    font-weight: bold;
+}
+.small-box:first-child{
+    background-color: #0D1282;
+    color: #fff;
+    
+}
+/* div{ 
+    background: #F4F4F4;
+   
+    column-gap: 1em;
+    margin-top: 25vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+} */

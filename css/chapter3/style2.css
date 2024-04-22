@@ -1,0 +1,41 @@
+
+/* h2{
+    display: inline;
+    background-color: rgb(238, 126, 204);
+}
+span{
+    display: block; 
+    background-color: rgb(42, 165, 48);
+    border: 2px solid black;
+}  */
+
+/* div{
+height: 200px;
+width: 200px;
+background-color: rgb(8, 226, 37);
+border: 2px solid black;
+margin: 5px;
+display: inline-block;
+} */
+
+#fourth{
+    display: none;
+}
+h3{
+    border: 2px solid black;
+    background-color: limegreen;
+    width: 50%;
+}
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: plum;
+    margin: 50px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin-left: 10%;
+}

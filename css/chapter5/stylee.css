@@ -1,0 +1,120 @@
+
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+}
+#org{
+    align-self: center;
+}
+#yellow{
+    flex-basis: 400px;
+}
+#containerr{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+#container1{
+    height: 400px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column;
+}
+#container2{
+    height: 400px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+#containerr div{
+    height: 100px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+#container1 div{
+    height: 100px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+#container2 div{
+    height: 100px;
+    width: 300px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+#box{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.boxx{
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    background-color: grey;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+#navbar{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.option{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 50px;
+}

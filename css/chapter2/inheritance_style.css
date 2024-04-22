@@ -1,0 +1,14 @@
+
+div{
+    background-color: rgb(136, 190, 238);
+}
+form{
+    background-color: rgb(73, 158, 231);
+}
+button{
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: red;
+}

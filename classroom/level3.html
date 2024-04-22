@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Food Menu</caption>
+        
+        <thead>  <!--table header-->
+            <tr>
+                <th>ITEM</th>
+                <th>PRICE</th>
+            </tr>
+        </thead>
+         
+       <tbody>  <!--table header-->
+        <tr>
+            <td>MO:MO</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>puri & tarkari</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Chauwmin</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Chips</td>
+            <td>50</td>
+        </tr>
+       </tbody>
+       
+    </table>
+    <hr>
+    <table border="black">
+        <caption>Food Menu</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">ITEMS</th>
+                <th colspan="2">PRICE</th>
+            </tr>
+            <tr>
+                <th>NP</th>
+                <th>INR</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>Chips</td>
+                <td>50</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>20</td>
+                <td>0.2</td>
+            </tr>
+            <tr>
+                <td>puri & tarkari</td>
+                <td>50</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Chauwmin</td>
+                <td>50</td>
+                <td>0.14</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table border="black">
+        <caption>A Test table  with merged cells</caption>
+     <tr>
+        <td rowspan="2"></td>
+        <td colspan="2">Average</td>
+        <td rowspan="2">Red Eyes</td>
+     </tr>
+     <tr>
+        <td>Height</td>
+        <td>Width</td>
+     </tr>
+     <tr>
+        <td>Males</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+     </tr>
+     <tr>
+        <td>females</td>
+        <td>1.5</td>
+        <td>0.002</td>
+        <td>43%</td>
+     </tr>
+    </table>
+    <hr>
+    <form action="/server">
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" placeholder="Enter Your name" id="username" name="user"> 
+        </div>
+      
+       <div>
+        <label for="password"> Password: </label>
+        <input type="password" placeholder="Enter your password" id="password" name="pass">
+       </div>
+
+       <div>
+        <label for="age"> Age: </label>
+        <input type="number" placeholder="Enter your Age" id="age">
+       </div>
+       <br>
+       <div>
+        Choose subjects:
+        <input type="checkbox" name="subjects" id="math" value="math" >
+        <label for="math"> Math</label>
+        <input type="checkbox" name="subjects"  id="science"  value="science">
+        <label for="science"> Science</label>
+        <input type="checkbox" name="subjects"  id="english" value="english" >
+        <label for="english">English</label>
+       </div>
+      <br><br>
+      <div>
+        Choose your profession
+        <select name="profession" id="profession">
+            <option value="">Select your profession</option>
+            <option value="stu">Student</option>
+            <option value="dev">Developer</option>
+        </select>
+      </div>
+      <label for="vol">Select Your Volume level:</label>
+      <input type="range" id="vol" name="vol" min="0" max="100">
+
+       <input type="radio" id="pear" name="fruit" value="pear">
+       <label for="pear">Pear</label>
+
+       <input type="radio" id="litchi" name="fruit" value="litchi">
+       <label for="litchi">Litchi</label>
+
+       <input type="radio" id="mango" name="fruit" value="mango">
+       <label for="mango">mango</label> <br><br>
+       <label for="feedback">Please give your feedback:</label>
+       <textarea name="feedback" id="feedback" cols="10" rows="5" placeholder="write your feedback here"></textarea>
+       <button type="button">button</button>
+       <button type="submit">Submit</button>
+       <button type="reset">Reset</button>
+       <button type="submit">Click me!</button>   
+       <br><br>
+       
+
+<!--        
+       Time:<input type="time"><br>
+        Color:<input type="color"><br>
+        Number:<input type="number"> -->
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="search in google">
+        <button>search</button>
+    </form>
+
+    <hr size="5px">
+    <form action="/serverr">
+        <h2>Registration Form</h2>
+        <div>
+        <input type="text" placeholder="First name" name="fname" id="fname">
+        <input type="text" placeholder="Last name" name="lname" id="lname"> 
+        </div>
+       
+        <div>
+        <label for="gender">Please select gender</label>
+        <select name="gender" id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">others</option>
+        </select>
+        </div>
+       
+       <div>
+        <label for="">Do you agree to all terms of services?</label>
+        <input type="checkbox" id="tos_agree" name="tos_agree">  
+        <label for="tos_agree">yes,i agree</label>
+       </div>
+        
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
